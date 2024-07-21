@@ -1,4 +1,3 @@
-import React from "react";
 import { links } from "@/utilis";
 import { NavLink } from "react-router-dom";
 import { useAppSelector } from "@/hooks";

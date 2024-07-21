@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link, useRouteError, isRouteErrorResponse } from "react-router-dom";
 const Error = () => {

@@ -1,7 +1,4 @@
-import React, { useState } from "react";
-import { Moon, Sun } from "lucide-react";
-import { Button } from "./ui/button";
-import { useAppDispatch } from "../hooks";
+import { useState } from "react";
 
 const Test = () => {
   const labels = ["Anime", "Dramat", "Horror", "Komedie"];

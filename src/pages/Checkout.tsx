@@ -1,6 +1,6 @@
 import { useAppSelector } from "@/hooks";
 import { CheckoutForm, SectionTitle, CartTotals } from "../components";
-import { toast } from "@/components/ui/use-toast";
+
 import { LoaderFunction, redirect } from "react-router-dom";
 import { type ReduxStore } from "@/store";
 export const loader =
@@ -14,7 +14,6 @@ export const loader =
     return null;
   };
 const Checkout = () => {
-  const { user } = useAppSelector((state) => state.userState);
   const { cartTotal } = useAppSelector((state) => state.cartState);
 
   if (cartTotal === 0) {

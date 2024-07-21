@@ -1,4 +1,3 @@
-import React from "react";
 import { Separator } from "./ui/separator";
 const SectionTitle = ({ text }: { text: string }) => {
   return (

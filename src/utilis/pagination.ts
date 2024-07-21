@@ -1,5 +1,3 @@
-import { types } from "util";
-
 type ConstructUrlParams = {
   pageNumber: number;
   search: string;

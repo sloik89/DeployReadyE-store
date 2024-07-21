@@ -1,4 +1,3 @@
-import React from "react";
 import { Logo, LinksDropdown, NavLinks, ModeToggle, CartButton } from "./";
 const Navbar = () => {
   return (

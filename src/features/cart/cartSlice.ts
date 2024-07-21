@@ -32,7 +32,7 @@ const cartSlice = createSlice({
       cartSlice.caseReducers.calculateTotals(state);
       toast({ description: "Item added to cart" });
     },
-    clearCart: (state) => {
+    clearCart: () => {
       localStorage.setItem("cart", JSON.stringify(initialState));
       // new state value if we return
       return initialState;

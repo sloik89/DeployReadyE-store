@@ -1,5 +1,3 @@
-import { Input } from "./ui/input";
-import { Label } from "./ui/label";
 import { Button } from "./ui/button";
 import { FormInput, FormSelect, FormRange, FormChecbox } from "../components";
 

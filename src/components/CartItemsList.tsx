@@ -1,6 +1,6 @@
 import { useAppSelector } from "@/hooks";
-import { Card, CardTitle } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
+import { Card } from "@/components/ui/card";
+
 import {
   FirstColumn,
   SecondColumn,

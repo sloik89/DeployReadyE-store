@@ -1,6 +1,6 @@
 export { default as HomeLayout } from "./HomeLayout";
 export { default as Landing } from "./Landing";
-export { default as SingleProduct } from "./HomeLayout";
+// export { default as SingleProduct } from "./HomeLayout";
 export { default as Product } from "./SingleProduct";
 export { default as Cart } from "./Cart";
 export { default as Error } from "./Error";

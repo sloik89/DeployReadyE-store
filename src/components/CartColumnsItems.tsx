@@ -1,4 +1,3 @@
-import { useAppSelector } from "@/hooks";
 import { Button } from "@/components/ui/button";
 import { editItem, removeItem } from "@/features/cart/cartSlice";
 import { useDispatch } from "react-redux";

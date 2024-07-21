@@ -8,8 +8,7 @@ import {
 import React from "react";
 import { Card, CardHeader, CardContent, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { toast } from "@/components/ui/use-toast";
-import { AxiosError } from "axios";
+
 import { customFetch } from "@/utilis";
 import { useDispatch } from "react-redux";
 import { type ReduxStore } from "@/store";

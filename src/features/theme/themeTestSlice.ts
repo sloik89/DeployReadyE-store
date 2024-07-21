@@ -1,4 +1,4 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 type TestTheme = "dark" | "light" | "system";
 type ThemState = {
   testTheme: TestTheme;
@@ -10,7 +10,7 @@ const ThemeTestSlice = createSlice({
   name: "test theme",
   initialState,
   reducers: {
-    setTheme: (state, action: PayloadAction<TestTheme>) => {
+    setTheme: () => {
       console.log("jestem");
     },
   },

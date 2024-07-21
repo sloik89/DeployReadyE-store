@@ -1,4 +1,4 @@
-import { Link, useLoaderData, type LoaderFunction } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import { type ProductsResponse } from "@/utilis";
 import { formatDollars } from "@/utilis/formatedDollar";
 import { Card, CardContent } from "@/components/ui/card";
@@ -7,7 +7,7 @@ const ProductsList = () => {
   console.log(products);
   return (
     <div className="mt-12 grid grid-cols-1 gap-y-6">
-      {products.map((item, idx) => {
+      {products.map((item) => {
         return (
           <Link key={item._id} to={`${item._id}`}>
             <Card>

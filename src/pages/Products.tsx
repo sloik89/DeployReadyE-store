@@ -1,11 +1,10 @@
-import React from "react";
 import { Filters, PaginateContainer, ProductsContainer } from "../components/";
 import {
   customFetch,
   type ProductsResponse,
   type ProductsResponseWithParams,
 } from "@/utilis";
-import { useLoaderData, type LoaderFunction } from "react-router-dom";
+import { type LoaderFunction } from "react-router-dom";
 export const loader: LoaderFunction = async ({
   request,
 }): Promise<ProductsResponseWithParams> => {

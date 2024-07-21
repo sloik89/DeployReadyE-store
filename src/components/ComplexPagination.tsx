@@ -8,11 +8,7 @@ import {
   PaginationPrevious,
   PaginationEllipsis,
 } from "@/components/ui/pagination";
-import {
-  ProductsResponseWithParams,
-  constructUrl,
-  constructPrevOrNextUrl,
-} from "@/utilis";
+import { constructUrl } from "@/utilis";
 import { type OrderResponse } from "@/utilis";
 import { useLoaderData, useLocation } from "react-router-dom";
 import { PaginationNavigation } from "@/utilis/pagination";

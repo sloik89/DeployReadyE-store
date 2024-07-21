@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 import { useAppDispatch, useAppSelector } from "@/hooks";
 import { logoutUser } from "@/features/user/userSlice";
 import { clearCart } from "@/features/cart/cartSlice";
-import { toast, useToast } from "./ui/use-toast";
+import { toast } from "./ui/use-toast";
 
 const Header = () => {
   const { user } = useAppSelector((state) => state.userState);

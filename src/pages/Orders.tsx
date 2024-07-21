@@ -1,7 +1,6 @@
-import { toast } from "@/components/ui/use-toast";
 import { ReduxStore } from "../store";
 import { LoaderFunction, redirect, useLoaderData } from "react-router-dom";
-import { customFetch, formatDollars } from "@/utilis";
+import { customFetch } from "@/utilis";
 
 import { type OrderResponse } from "@/utilis";
 import {
@@ -13,7 +12,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { OrderList, SectionTitle, ComplexPagination } from "../components";
+import { ComplexPagination } from "../components";
 export const loader =
   (store: ReduxStore): LoaderFunction =>
   async ({ request }): Promise<OrderResponse | null | Response> => {

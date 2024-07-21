@@ -1,12 +1,12 @@
 import { ProductsList, ProductsGrid } from "./";
 import { useState } from "react";
-import { Link, useLoaderData } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import { type ProductsResponse } from "@/utilis";
 import { LayoutGrid, List } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 const ProductsContainer = () => {
-  const { numofHists, meta } = useLoaderData() as ProductsResponse;
+  const { numofHists } = useLoaderData() as ProductsResponse;
 
   const [layout, setLayout] = useState<"grid" | "list">("grid");
   return (
